@@ -9,11 +9,5 @@ describe('Pagina de Cadastro', () => { //nome do teste
       cy.contains('User name is required!').should('be.visible');
       cy.contains('Password is required!').should('be.visible');
 
-
-      //cy.get('[data-test="email"]').type('aryadne@email.com.br');
-      //cy.get('[data-test="fullName"]').type('Aryadne Schultz');
-      //cy.get('[data-test="registerUserName"]').type('aryas');
-      //cy.get('[data-test="registerPassword"]').type('123456789');
-      //cy.contains('button','Register').click();
     })
   })
